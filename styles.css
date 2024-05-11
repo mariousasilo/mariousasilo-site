@@ -3,7 +3,8 @@
 }
 
 .menu-bar {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Avenir Light", Arial, Helvetica, sans-serif;
+    font-size: 12px;
     color: #7e8d9e;
     display: flex;
     justify-content: center;
@@ -15,4 +16,9 @@
 .menu-options {
     width: auto;
     margin: 10px;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
