@@ -1,0 +1,18 @@
+* {
+    background-color: #294f6f;
+}
+
+.menu-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7e8d9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.05);
+    margin: 0px;
+}
+
+.menu-options {
+    width: auto;
+    margin: 10px;
+}
