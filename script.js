@@ -35,4 +35,10 @@ function animateProgressBar(progressBars, index, percentText) {
     }, 200); // Adjust the delay between bars (in milliseconds)   
 }
 
+function smoothScroll(target) {
+    document.querySelector(target).scrollIntoView({
+        behavior: 'smooth'
+    });
+}
+
 startAnimationWhenVisible();
