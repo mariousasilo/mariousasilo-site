@@ -10,6 +10,10 @@
     background-color: rgba(50,65,88,1);
 }
 
+.layer{
+    position: relative;
+}
+
 .page_1::before{
     content: "";
     display: block;
@@ -40,9 +44,7 @@
     background-position: 50% 0;
 }
 
-.layer{
-    position: relative;
-}
+/* Section - 0 "Menu Bar" */
 
 .menu-bar {
     background-color: rgba(255,255,255,0);
@@ -65,6 +67,8 @@
     box-shadow: none;
 }
 
+/* Section - 1 "Home" */
+
 #page_1 {
     font-family: "Lulo", sans-serif;
     font-weight: 700;
@@ -79,7 +83,7 @@
 }
 
 .title {
-    margin: 10px 0
+    margin: 2% 0
 }
 
 #sub_title {
