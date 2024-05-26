@@ -81,3 +81,47 @@
 .menu-options:hover {
     color: #FFFFFF;
 }
+
+/* Section - 2 "Professional - My Skills in Software Development" */
+
+.page_2 {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #bec7d5;
+}
+
+.head-2 {
+    color: #f6f6f7;
+}
+
+.skill-container {
+    width: 800px;
+    margin-top: 20px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0;
+    height: 15px;
+    background-color: #00a0d6;
+    margin: 5px 15px 5px 0px;
+    transition: width 0.5s ease-in-out;
+}
+
+.flex-container {
+    display: flex;
+    margin: 25px auto;
+}
+
+.flex-item {
+    margin: 5px 50px 5px 0px;
+    width: 100px;
+    text-align: right;
+}
+
+.flex-percent {
+    margin: 5px 50px 5px 0px;
+    padding-left: 5px;
+}
