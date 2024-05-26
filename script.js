@@ -1,3 +1,24 @@
+function startAnimationWhenVisible() {
+    const progressBars = document.querySelectorAll('.progress-bar');
+    const percentText = document.querySelectorAll('.flex-percent');
+
+    // Create a new Intersection Observer
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // If the target element is intersecting with the viewport, start the animation
+                animateProgressBar(progressBars, 0, percentText);
+                observer.unobserve(entry.target); // Stop observing once animation starts
+            }
+        });
+    });
+
+    // Observe each progress bar
+    progressBars.forEach(progressBar => {
+        observer.observe(progressBar);
+    });
+}
+
 function animateProgressBar(progressBars, index, percentText) {
     if (index >= progressBars.length) {
         return; // Exit the function if all bars have been animated
@@ -13,9 +34,5 @@ function animateProgressBar(progressBars, index, percentText) {
         animateProgressBar(progressBars, index+1, percentText)
     }, 200); // Adjust the delay between bars (in milliseconds)   
 }
- 
-document.addEventListener('DOMContentLoaded', () => {
-    const progressBars = document.querySelectorAll('.progress-bar');
-    const percentText = document.querySelectorAll('.flex-percent');
-    animateProgressBar(progressBars, 0, percentText);
-});
+
+startAnimationWhenVisible();
