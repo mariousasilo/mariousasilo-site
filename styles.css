@@ -62,7 +62,37 @@
     width: 100%;
     height: 100%;
     opacity: 0.3;
-    background-image: url("./images/work-station-background.png");
+    background-image: url("./images/summit-wallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+.page_5::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url("./images/study-wallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+.page_6::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url("./images/letter-wallpaper.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -128,13 +158,13 @@
 
 /* Section - 2 "Professional - My Skills in Software Development" */
 
-#page_2 {
+#page_2, #page_3, #page_4, #page_5, #page_6{
     height: 100vh;
     color: #bec7d5;
     font-family: "Avenir Light", Arial, Helvetica, sans-serif;
 }
 
-.p2Content {
+.pageContent {
     display: flex;
     justify-content: center;
     align-items: center;
