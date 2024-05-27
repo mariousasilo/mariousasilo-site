@@ -8,17 +8,50 @@
 .background {
     position: relative;
     background-color: rgba(50,65,88,1);
+    height: 100vh;
 }
 
 .layer{
     position: relative;
 }
 
-.buffer {
-    width: 100%;
-    min-height: 20vh;
+.overlap {
+    position: absolute;
+    width: 30vw;
+    height: 45vh;
     background-color: #333b50;
-  }
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(110vh - 27.5vh);
+    z-index: 10;
+    padding: 5vh 5vw;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.marious-icon{
+    width: 20%;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2vh;
+    color: #FFFFFF;
+    font-family: 'Avenir Light';
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.page_1 {
+    height: 110vh;
+}
 
 .page_1::before{
     content: "";
@@ -130,7 +163,8 @@
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin: 150px 40px 150px 450px;
+    margin: 8% 4%;
+    margin-left: 25%;
     color: white;
     letter-spacing: 10px;
     height: 100vh;
@@ -164,6 +198,15 @@
     font-family: "Avenir Light", Arial, Helvetica, sans-serif;
 }
 
+.page_2 { 
+    height: 100vh;
+    padding-top: 50vh;
+}
+
+.page_3 {
+    height: 200vh;
+}
+
 .pageContent {
     display: flex;
     justify-content: center;
@@ -180,12 +223,11 @@
 .head-2 {
     color: #f6f6f7;
     font-size: 24px;
-    margin: auto auto 3%;
 }
 
 .skill-container {
     width: 800px;
-    margin-top: 20px;
+    margin-top: 2%;
     background-color: transparent;
     overflow: hidden;
 }
@@ -200,7 +242,7 @@
 
 .flex-container {
     display: flex;
-    margin: 25px auto;
+    margin: 2% auto;
 }
 
 .flex-item {
