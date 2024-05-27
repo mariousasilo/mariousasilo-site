@@ -192,7 +192,7 @@
 
 .progress-bar {
     width: 0;
-    height: 15px;
+    height: 10px;
     background-color: #00a0d6;
     margin: 5px 15px 5px 0px;
     transition: width 0.5s ease-in-out;
