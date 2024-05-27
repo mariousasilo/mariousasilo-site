@@ -72,6 +72,12 @@
     font-size: 24px;
 }
 
+.pageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ==================================================================================== */
 /* Section - 0 "Menu Bar" */
 /* ==================================================================================== */
@@ -185,12 +191,6 @@
     padding-top: 50vh;
 }
 
-.pageContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .skill-container {
     width: 800px;
     margin-top: 2%;
@@ -228,4 +228,21 @@
 
 .page_3 {
     height: 200vh;
+}
+
+/* ==================================================================================== */
+/* Section - 3 "Portfolio" */
+/* ==================================================================================== */
+
+.page_6 {
+    height: 85vh;
+}
+
+.footer {
+    background-color: #333b50;
+    height: 15vh;
+    flex-direction: column;
+    color: #bec7d5;
+    font-family: "Avenir Light", Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
