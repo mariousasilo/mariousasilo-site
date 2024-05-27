@@ -1,5 +1,5 @@
 function startAnimationWhenVisible() {
-    const progressBars = document.querySelectorAll('.progress-bar');
+    const progressBars = document.querySelectorAll('.flex-progressBar');
     const percentText = document.querySelectorAll('.flex-percent');
 
     // Create a new Intersection Observer
