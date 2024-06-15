@@ -111,6 +111,7 @@
     color: inherit;
     border: none;
     box-shadow: none;
+    cursor: pointer;
 }
 
 .colorBlue {
@@ -240,6 +241,46 @@
 
 .page_3 {
     height: 200vh;
+}
+
+.projectLink {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.projectImage {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.projectIcon {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.buttonContainer {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.projectButton {
+    background-color: #00a0d6;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    padding: 25px;
+    font-variation-settings: 'wght' 300;
+    cursor: pointer;
+}
+
+.projectButton:hover {
+    background-color: #605e5e;
 }
 
 /* ==================================================================================== */
