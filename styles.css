@@ -47,11 +47,13 @@
 .page_5::before{
     background-image: url("./images/study-wallpaper.png");
     background-position: 50% 0;
+    background-attachment: fixed;
 }
 
 .page_6::before{
     background-image: url("./images/letter-wallpaper.png");
     background-position: 50% 0;
+    background-attachment: fixed;
 }
 
 #page_2, #page_3, #page_4, #page_5, #page_6 {
@@ -134,8 +136,8 @@
     margin: 8% 4%;
     margin-left: 25%;
     color: white;
-    font-family: "Lulo", sans-serif;
-    font-weight: 700;
+    font-family: "lulo-one", sans-serif;
+    font-weight: 900;
     font-size: 65px;
     letter-spacing: 10px;
 }
@@ -240,7 +242,7 @@
 /* ==================================================================================== */
 
 .page_3 {
-    height: 200vh;
+    height: 380vh;
 }
 
 .projectLink {
@@ -256,6 +258,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    cursor: pointer;
 }
 
 .projectIcon {
@@ -284,7 +287,77 @@
 }
 
 /* ==================================================================================== */
-/* Section - 3 "Portfolio" */
+/* Section - 4 "Experience" */
+/* ==================================================================================== */
+
+.jobSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.left {
+    text-align: right;
+}
+
+.right {
+    text-align: left;
+}
+
+.blank {
+    width: 20vw;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: #00a0d6;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.job {
+    width: 20vw;
+}
+
+.jobLine {
+    margin-bottom: 15px;
+    font-family: "inter-tight-variable",sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-variation-settings: 'wght' 100;
+    font-size: 15px;
+}
+
+.date {
+    color: #00a0d6;
+    font-variation-settings: 'wght' 500;
+    font-size: 16px;
+}
+
+.company {
+    font-size: 24px;
+    font-variation-settings: 'wght' 300;
+}
+
+.role {
+    font-variation-settings: 'wght' 500;
+}
+
+.summary {
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+
+.buffer {
+    height: 3vh;
+}
+
+
+/* ==================================================================================== */
+/* Section - 6 "Contact" */
 /* ==================================================================================== */
 
 .page_6 {
