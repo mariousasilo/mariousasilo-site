@@ -467,14 +467,14 @@ textarea::placeholder {
     justify-content: center;
 }
 
-.icon {
+.socialIcon {
     height: 23px;
     width: 23px;
     filter: brightness(0) invert(1);
     margin: auto 7px;
 }
 
-.icon:hover {
+.socialIcon:hover {
     cursor: pointer;
 }
 
