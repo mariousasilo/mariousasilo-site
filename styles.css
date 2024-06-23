@@ -401,7 +401,6 @@
 }
 
 .contact_overlap {
-    display: flex;
     width: 700px;
     height: 500px;
     position: absolute;
@@ -411,6 +410,10 @@
     top: calc(-10vh);
     z-index: 10;
     padding: 45px 75px;
+}
+
+.contact-container {
+    display: flex;
 }
 
 .contact_element {
@@ -459,4 +462,19 @@ textarea::placeholder {
     cursor: pointer;
 }
 
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 23px;
+    width: 23px;
+    filter: brightness(0) invert(1);
+    margin: auto 7px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
 
