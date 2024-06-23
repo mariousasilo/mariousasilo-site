@@ -1,3 +1,3 @@
 # mariousasilo-site
 
-Creating my own website from scratch using HTML/CSS and Javascript.
+Creating my own website from scratch showcasing my skills in HTML/CSS, Javascript and git.
