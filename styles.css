@@ -5,6 +5,10 @@
     border: 0;
 }
 
+body, html {
+    scroll-behavior: smooth;
+}
+
 .webpage {
     position: relative;
     background-color: rgba(50,65,88,1);
